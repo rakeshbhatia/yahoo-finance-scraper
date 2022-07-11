@@ -1,0 +1,1493 @@
+{
+    "appConfig": {
+        "renderTargets": [
+            {
+                "classNames": "render-target-default Pos(a) W(100%)",
+                "id": "default"
+            },
+            {
+                "classNames": "render-target-modal O(n)!:f Bdtw(1px) D(n) H(a)! Mih(100%) modal-postopen_Op(1) Pos(a) T(76px) CollapsibleUh_T(60px) Start(0) End(0) Maw(1230px) Miw(984px) Mx(a) modal-open_D(b) modal-postopen_D(b) W(100%) H(100%) Z(9)",
+                "id": "modal"
+            }
+        ],
+        "spaceid": 1183300002,
+        "timeouts": {
+            "navigate": 10000
+        }
+    },
+    "compositeConfig": {
+        "Nav-0-DesktopNav": {
+            "components": [
+                {
+                    "bundleName": "tdv2-applet-navrail",
+                    "config": {
+                        "components": {
+                            "finance": {
+                                "linkWidth": 230,
+                                "linksRight": [
+                                    "feature_promo"
+                                ]
+                            }
+                        },
+                        "defaultRowNum": 10,
+                        "enablePremiumNav": true,
+                        "featureSwitches": {
+                            "disableDivider": true,
+                            "enableHighlightTriangle": true,
+                            "followButtons": false,
+                            "navLogoAlign": false,
+                            "navrailCollapse": false,
+                            "useNavSelectLogic": true,
+                            "useSubnavTitleSlk": true
+                        },
+                        "i13n": {
+                            "itc": 0,
+                            "sec": "navrail"
+                        },
+                        "linkMeta": {
+                            "feature_promo": {
+                                "bundles": {
+                                    "bundleName": "tdv2-applet-monalixa",
+                                    "name": "MonalixaComponent",
+                                    "props": {
+                                        "appid": "e2423aea-ed6b-4493-ba57-7d159894084c",
+                                        "autoStart": true,
+                                        "checkStoreBeforeCall": true,
+                                        "isPremium": true,
+                                        "placement": "finance-eyebrow-index"
+                                    }
+                                }
+                            }
+                        },
+                        "mrt": {
+                            "static": false
+                        },
+                        "navItems": [
+                            {
+                                "image": {
+                                    "append": true,
+                                    "height": 30,
+                                    "imageClasses": "Mb(2px)",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/20211027/logo-18-18.svg",
+                                    "width": 30
+                                },
+                                "imageWrapperClasses": "W(15px) D(ib) Mstart(5px)",
+                                "name": "Yahoo Finance Plus",
+                                "requiresPremiumExperience": true
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "name": "Saved Screeners",
+                                        "url": "https://finance.yahoo.com/screener"
+                                    },
+                                    {
+                                        "name": "Equity Screener",
+                                        "url": "https://finance.yahoo.com/screener/new"
+                                    },
+                                    {
+                                        "name": "Mutual Fund Screener",
+                                        "url": "https://finance.yahoo.com/screener/mutualfund/new"
+                                    },
+                                    {
+                                        "name": "ETF Screener",
+                                        "url": "https://finance.yahoo.com/screener/etf/new"
+                                    },
+                                    {
+                                        "name": "Futures Screener",
+                                        "url": "https://finance.yahoo.com/screener/future/new"
+                                    },
+                                    {
+                                        "name": "Index Screener",
+                                        "url": "https://finance.yahoo.com/screener/index/new"
+                                    },
+                                    {
+                                        "image": {
+                                            "append": true,
+                                            "height": 30,
+                                            "imageClasses": "Mb(2px)",
+                                            "url": "https://s.yimg.com/cv/apiv2/default/20211027/logo-18-18.svg",
+                                            "width": 30
+                                        },
+                                        "imageWrapperClasses": "W(15px) D(ib) Mstart(5px)",
+                                        "name": "Analyst Rating Screener",
+                                        "url": "https://finance.yahoo.com/screener/analyst_ratings/new?ncid=dcm_320339942_490172245_127172993"
+                                    },
+                                    {
+                                        "image": {
+                                            "append": true,
+                                            "height": 30,
+                                            "imageClasses": "Mb(2px)",
+                                            "url": "https://s.yimg.com/cv/apiv2/default/20211027/logo-18-18.svg",
+                                            "width": 30
+                                        },
+                                        "imageWrapperClasses": "W(15px) D(ib) Mstart(5px)",
+                                        "name": "Technical Events Screener",
+                                        "url": "https://finance.yahoo.com/screener/tradingcentral_event/new?ncid=dcm_320544712_490172245_127172993"
+                                    },
+                                    {
+                                        "image": {
+                                            "append": true,
+                                            "height": 30,
+                                            "imageClasses": "Mb(2px)",
+                                            "url": "https://s.yimg.com/cv/apiv2/default/20211027/logo-18-18.svg",
+                                            "width": 30
+                                        },
+                                        "imageWrapperClasses": "W(15px) D(ib) Mstart(5px)",
+                                        "name": "Smart Money Screener",
+                                        "url": "https://finance.yahoo.com/screener/institutional_interest/new?ncid=dcm_320344326_490172245_127172993"
+                                    },
+                                    {
+                                        "image": {
+                                            "append": true,
+                                            "height": 30,
+                                            "imageClasses": "Mb(2px)",
+                                            "url": "https://s.yimg.com/cv/apiv2/default/20211027/logo-18-18.svg",
+                                            "width": 30
+                                        },
+                                        "imageWrapperClasses": "W(15px) D(ib) Mstart(5px)",
+                                        "name": "Top Holdings Screener",
+                                        "url": "https://finance.yahoo.com/screener/institutional_holdings/new?ncid=dcm_320545006_490172245_127172993"
+                                    }
+                                ],
+                                "name": "Screeners",
+                                "requiresPremiumExperience": true
+                            }
+                        ],
+                        "renderSecondaryNav": true,
+                        "site": "finance",
+                        "ui": {
+                            "darkTheme": false,
+                            "dividerClasses": "H(0)!",
+                            "headerTitle": "finance",
+                            "highlightPropertyHome": false,
+                            "highlightTriangleColor": "transparent transparent #fff",
+                            "hoverColor": "C($finNavBlueText):h",
+                            "isNavLink": true,
+                            "leftNavClasses": "Pstart(10px) Mstart(-10px) nr-applet-main-nav-right_Ov(inh)!",
+                            "linkItemClasses": "Bgc($linkColor):h W(230px)!",
+                            "makeSticky": false,
+                            "navCache": true,
+                            "navFont": "Ff($yahooSansFinanceFont)!",
+                            "navLinkClasses": "Tt(n)!",
+                            "navLinkClassesOnHover": "Bdbc($linkColor)!:h Bdbs(s)!:h Bdbw(4px)!:h H(38px) Trstf(l) Trsde(0s) Trsdu(.18s) Trsp(border-bottom-width)",
+                            "navLinkNonHoverClasses": "C($topNavLinkGray) Bdbs(n)",
+                            "navMainLeftClasses": "Mend(80px)",
+                            "navMainRightClasses": "Bdc(t) Bdrs(1.5px) Bdbs(s):h Px(10px)!",
+                            "navTitleClasses": "Pstart(10px) Mstart(-10px)!",
+                            "offsetHack": "Pt(2px) Bgc(t)!",
+                            "overrideColor": "C($finNavBlueText)",
+                            "propertyHomeClasses": "Tt(c)! Bdbc($linkColor):h Bdbs(s):h Bdbw(4px):h H(38px) Trstf(l) Trsde(0s) Trsdu(.18s) Trsp(border-bottom-width)",
+                            "propertyHomeSelectColor": "Bdbc($linkColor) Bdbs(s)! Bdbw(4px) H(38px)",
+                            "relativeLinks": true,
+                            "remoteAdapter": true,
+                            "selectColor": "C($finNavBlueText)! Bdbw(0px) H(42px) Trstf(l) Trsde(0s) Trsdu(.18s) Trsp(border-bottom-width)",
+                            "subnavClasses": "Bgc($lv3BgColor)!",
+                            "subnavLinkClasses": "Tt(n)! C($primaryColor) C(white)!:h Maw(200px)!"
+                        }
+                    },
+                    "name": "DesktopNav",
+                    "props": {
+                        "id": "Nav-0-DesktopNav-0-DesktopNav",
+                        "key": "Nav-0-DesktopNav-0-DesktopNav"
+                    }
+                }
+            ],
+            "name": "Nav-0-DesktopNav"
+        },
+        "Nav-0-DesktopNav-0-DesktopNav-acct-switch": {
+            "components": [
+                {
+                    "bundleName": "tdv2-applet-account-switch",
+                    "config": {
+                        "isEnabled": true
+                    },
+                    "name": "AccountSwitch",
+                    "props": {
+                        "id": "Nav-0-DesktopNav-0-DesktopNav-acct-switch-0-AccountSwitch",
+                        "key": "Nav-0-DesktopNav-0-DesktopNav-acct-switch-0-AccountSwitch"
+                    }
+                }
+            ],
+            "name": "Nav-0-DesktopNav-0-DesktopNav-acct-switch"
+        }
+    },
+    "compositeStatus": {
+        "Nav-0-DesktopNav": 1,
+        "Nav-0-DesktopNav-0-DesktopNav-acct-switch": 1
+    },
+    "currentEvent": {
+        "eventName": "NEW_PAGE_SUCCESS"
+    },
+    "currentPageName": "quote",
+    "currentRenderTargetId": "default",
+    "pageData": {
+        "category": "options",
+        "description": "View the basic TSLA option chain and compare options of Tesla, Inc. on Yahoo Finance.",
+        "keywords": "TSLA, Tesla, Inc., TSLA options, Tesla, Inc. options, TSLA option chain, Tesla, Inc. option chain, option, option chain, TSLA stock chart, Tesla, Inc. stock chart, stock chart, stocks, quotes, finance",
+        "meta": {
+            "name": {
+                "apple-itunes-app": "app-id=328412701, app-clip-bundle-id=com.yahoo.finance.clip-qsp, affiliate-data=ct=us.fin.mbl.smart-banner&pt=9029, app-argument=https://finance.yahoo.com/quote/TSLA",
+                "oath:guce:consent-host": "guce.yahoo.com"
+            },
+            "property": {
+                "al:android:app_name": "Yahoo Finance",
+                "al:android:package": "com.yahoo.mobile.client.android.finance",
+                "al:android:url": "intent://quote/TSLA/#Intent;scheme=yfinance;action=android.intent.action.VIEW;package=com.yahoo.mobile.client.android.finance;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.yahoo.mobile.client.android.finance;end",
+                "al:ios:app_name": "Yahoo Finance",
+                "al:ios:app_store_id": "328412701",
+                "fb:pages": "458584288257241",
+                "og:description": "View the basic TSLA option chain and compare options of Tesla, Inc. on Yahoo Finance.",
+                "og:image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
+                "og:title": "Tesla, Inc. (TSLA) Options Chain - Yahoo Finance",
+                "twitter:description": "View the basic TSLA option chain and compare options of Tesla, Inc. on Yahoo Finance.",
+                "twitter:site": "@YahooFinance",
+                "twitter:title": "Tesla, Inc. (TSLA) Options Chain - Yahoo Finance"
+            }
+        },
+        "symbol": "TSLA",
+        "title": "Tesla, Inc. (TSLA) Options Chain - Yahoo Finance"
+    },
+    "pagesConfigRaw": {
+        "base": {
+            "quote": {
+                "_context": {
+                    "calendarType": "",
+                    "category": "options",
+                    "enablePremium": "1",
+                    "eventName": "",
+                    "inTrial": "0",
+                    "pageType": "quote",
+                    "quoteType": "EQUITY",
+                    "screenerType": "",
+                    "subscribed": "0",
+                    "topicName": ""
+                },
+                "ads": {
+                    "adBoostGroupConf": {
+                        "LREC3": null,
+                        "LREC4": null,
+                        "MON2": {
+                            "extrapositions": [
+                                "LREC3"
+                            ]
+                        }
+                    },
+                    "deferRender": true,
+                    "enableAdboost": true,
+                    "events": {
+                        "AUTO": {
+                            "autoDDG": 0,
+                            "groups": {
+                                "LREC3": "LREC3",
+                                "LREC4": null,
+                                "MON2": "LREC3"
+                            },
+                            "ps": {
+                                "MON2": {
+                                    "autoRT": 10000
+                                }
+                            }
+                        },
+                        "adFetch": {
+                            "firstRender": "FB2A,FB2B,FB2C,FB2D,LDRB,LDRB2,MON,LREC,TRADENOW",
+                            "ps": "FB2A,FB2B,FB2C,FB2D,LDRB,LDRB2,MON,LREC,LREC2,FOOT,FSRVY,TRADENOW",
+                            "sponsoredAds": "",
+                            "sponsoredAdsClass": ""
+                        }
+                    },
+                    "positions": {
+                        "MAST": {
+                            "fclose": 2,
+                            "fdb": {
+                                "on": "1",
+                                "where": "inside"
+                            }
+                        },
+                        "MAST-9": {
+                            "fclose": 2,
+                            "fdb": {
+                                "on": "1",
+                                "where": "inside"
+                            }
+                        }
+                    },
+                    "removeFSRVY": true
+                },
+                "enableNewResearchInsights": true,
+                "enablePremium": true,
+                "enableRmpAssets": true,
+                "enableTemplates": true,
+                "initializeAction": "initQuotePage",
+                "isHighValueUser": false,
+                "layout": {
+                    "bundleName": "yahoodotcom-layout.TwoColumnLayout",
+                    "config": {
+                        "Col1": {
+                            "containerClasses": "Z(1)"
+                        },
+                        "Header": {
+                            "height": 135,
+                            "isFixed": true,
+                            "navContainerClasses": "Bgi($navrailGrayGradient) Bxsh($navrailShadow) Pos(r) hasScrolled_Bxsh(headerShadow) Panel-open_Bxsh(headerShadow)",
+                            "navTransitionClasses": "HideNavrail_Translate3d(0,-46px,0) Panel-open_Translate3d(0,-46px,0)",
+                            "secondaryNavContainerClasses": "hasScrolled_Bdbw(0px) Bgc($lv3BgColor) Bxsh($navrailShadow) D(n)--print",
+                            "uhContainerClasses": "Bgi($uhGrayGradient) D(n)--print"
+                        },
+                        "additionalBodyWrapperClasses": "Bgc($layoutBgColor)!",
+                        "contentWrapperClasses": "Bgc($lv2BgColor)!",
+                        "enableHeaderCollapse": true,
+                        "fetchNewAttribution": true
+                    },
+                    "meta": {
+                        "property": {
+                            "twitter:site": "@YahooFinance"
+                        }
+                    },
+                    "name": "TwoColumnLayout"
+                },
+                "meta": {
+                    "property": {
+                        "fb:pages": "458584288257241",
+                        "og:image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
+                        "twitter:site": "@YahooFinance"
+                    }
+                },
+                "regionOrder": [
+                    "UH",
+                    "Nav",
+                    "SecondaryNav",
+                    "Overlay",
+                    "Lead",
+                    "Col1",
+                    "Col2"
+                ],
+                "regions": {
+                    "Col1": [
+                        {
+                            "bundleName": "td-ads",
+                            "isPageComposite": true,
+                            "name": "Ad",
+                            "props": {
+                                "id": "Col1-0-Ad",
+                                "key": "Col1-0-Ad",
+                                "pos": "LDRB2",
+                                "style": {
+                                    "lineHeight": "0px",
+                                    "marginBottom": "8px",
+                                    "marginLeft": "auto",
+                                    "marginRight": "auto",
+                                    "marginTop": "8px",
+                                    "position": "relative",
+                                    "textAlign": "center",
+                                    "zIndex": "4"
+                                }
+                            }
+                        },
+                        {
+                            "bundleName": "Quote.options",
+                            "isPageComposite": true,
+                            "name": "OptionContracts",
+                            "props": {
+                                "id": "Col1-1-OptionContracts",
+                                "key": "Col1-1-OptionContracts"
+                            }
+                        },
+                        {
+                            "bundleName": "react-finance",
+                            "isPageComposite": true,
+                            "name": "AdUnitWithTdAds",
+                            "props": {
+                                "className": "ad-foot",
+                                "id": "Col1-2-AdUnitWithTdAds",
+                                "key": "Col1-2-AdUnitWithTdAds",
+                                "positions": [
+                                    "FOOT"
+                                ]
+                            }
+                        },
+                        {
+                            "bundleName": "react-finance",
+                            "isPageComposite": true,
+                            "name": "AdUnitWithTdAds",
+                            "props": {
+                                "className": "ad-fsrvy",
+                                "id": "Col1-3-AdUnitWithTdAds",
+                                "key": "Col1-3-AdUnitWithTdAds",
+                                "positions": [
+                                    "FSRVY"
+                                ]
+                            }
+                        }
+                    ],
+                    "Col2": [
+                        {
+                            "bundleName": "td-ads",
+                            "isPageComposite": true,
+                            "name": "ComboAd",
+                            "props": {
+                                "adparseStyle": {
+                                    "marginBottom": "20px"
+                                },
+                                "children": [
+                                    {
+                                        "bundleName": "td-ads",
+                                        "name": "Ad",
+                                        "props": {
+                                            "id": "cmbLREC",
+                                            "key": "cmbLREC",
+                                            "pos": "LREC"
+                                        }
+                                    },
+                                    {
+                                        "bundleName": "td-ads",
+                                        "name": "Ad",
+                                        "props": {
+                                            "id": "cmbMON",
+                                            "key": "cmbMON",
+                                            "pos": "MON"
+                                        }
+                                    }
+                                ],
+                                "finishedStyle": {
+                                    "marginBottom": "20px"
+                                },
+                                "id": "Col2-0-ComboAd",
+                                "key": "Col2-0-ComboAd",
+                                "serverHeight": true
+                            }
+                        },
+                        {
+                            "bundleName": "tdv2-applet-monalixa",
+                            "config": {
+                                "appid": "e2423aea-ed6b-4493-ba57-7d159894084c",
+                                "placement": "finance-desktop-web-qsp-rightrail"
+                            },
+                            "isPageComposite": true,
+                            "name": "MonalixaComponent",
+                            "props": {
+                                "id": "Col2-1-MonalixaComponent",
+                                "key": "Col2-1-MonalixaComponent",
+                                "type": "eventPromo"
+                            }
+                        },
+                        {
+                            "bundleName": "QuotePage",
+                            "initMode": {
+                                "deferRender": true
+                            },
+                            "isPageComposite": true,
+                            "name": "QuoteModule",
+                            "props": {
+                                "id": "Col2-2-QuoteModule",
+                                "key": "Col2-2-QuoteModule",
+                                "type": "similarCompanies"
+                            }
+                        },
+                        {
+                            "bundleName": "QuotePage",
+                            "initMode": {
+                                "deferRender": true
+                            },
+                            "isPageComposite": true,
+                            "name": "QuoteModule",
+                            "props": {
+                                "id": "Col2-3-QuoteModule",
+                                "key": "Col2-3-QuoteModule",
+                                "type": "miniESGScore"
+                            }
+                        },
+                        {
+                            "bundleName": "QuotePage",
+                            "initMode": {
+                                "deferRender": true
+                            },
+                            "isPageComposite": true,
+                            "name": "QuoteModule",
+                            "props": {
+                                "id": "Col2-4-QuoteModule",
+                                "key": "Col2-4-QuoteModule",
+                                "type": "earningsChart"
+                            }
+                        },
+                        {
+                            "bundleName": "QuotePage",
+                            "initMode": {
+                                "deferRender": true
+                            },
+                            "isPageComposite": true,
+                            "name": "QuoteModule",
+                            "props": {
+                                "id": "Col2-5-QuoteModule",
+                                "key": "Col2-5-QuoteModule",
+                                "type": "financialsChart"
+                            }
+                        },
+                        {
+                            "bundleName": "td-ads",
+                            "isPageComposite": true,
+                            "name": "Ad",
+                            "props": {
+                                "id": "Col2-6-Ad",
+                                "key": "Col2-6-Ad",
+                                "pos": "LREC2",
+                                "style": {
+                                    "marginBottom": "20px"
+                                }
+                            }
+                        },
+                        {
+                            "bundleName": "QuotePage",
+                            "initMode": {
+                                "deferRender": true
+                            },
+                            "isPageComposite": true,
+                            "name": "QuoteModule",
+                            "props": {
+                                "id": "Col2-7-QuoteModule",
+                                "key": "Col2-7-QuoteModule",
+                                "type": "recTrends"
+                            }
+                        },
+                        {
+                            "bundleName": "QuotePage",
+                            "initMode": {
+                                "deferRender": true
+                            },
+                            "isPageComposite": true,
+                            "name": "QuoteModule",
+                            "props": {
+                                "id": "Col2-8-QuoteModule",
+                                "key": "Col2-8-QuoteModule",
+                                "type": "recRating"
+                            }
+                        },
+                        {
+                            "bundleName": "QuotePage",
+                            "initMode": {
+                                "deferRender": true
+                            },
+                            "isPageComposite": true,
+                            "name": "QuoteModule",
+                            "props": {
+                                "id": "Col2-9-QuoteModule",
+                                "key": "Col2-9-QuoteModule",
+                                "type": "analystTarget"
+                            }
+                        },
+                        {
+                            "bundleName": "QuotePage",
+                            "initMode": {
+                                "deferRender": true
+                            },
+                            "isPageComposite": true,
+                            "name": "QuoteModule",
+                            "props": {
+                                "id": "Col2-10-QuoteModule",
+                                "key": "Col2-10-QuoteModule",
+                                "type": "upgradeDowngrade"
+                            }
+                        },
+                        {
+                            "bundleName": "QuotePage",
+                            "initMode": {
+                                "deferRender": true
+                            },
+                            "isPageComposite": true,
+                            "name": "QuoteModule",
+                            "props": {
+                                "id": "Col2-11-QuoteModule",
+                                "key": "Col2-11-QuoteModule",
+                                "type": "profile"
+                            }
+                        },
+                        {
+                            "bundleName": "td-ads",
+                            "isPageComposite": true,
+                            "name": "ComboAd",
+                            "props": {
+                                "adparseStyle": {
+                                    "marginBottom": "20px"
+                                },
+                                "children": [
+                                    {
+                                        "bundleName": "td-ads",
+                                        "name": "Ad",
+                                        "props": {
+                                            "id": "cmbMON2",
+                                            "key": "cmbMON2",
+                                            "pos": "MON2"
+                                        }
+                                    },
+                                    {
+                                        "bundleName": "td-ads",
+                                        "name": "Ad",
+                                        "props": {
+                                            "id": "cmbLREC3",
+                                            "key": "cmbLREC3",
+                                            "pos": "LREC3"
+                                        }
+                                    }
+                                ],
+                                "className": "ads_wrapper Trs($ads-height)",
+                                "finishedStyle": {
+                                    "marginBottom": "20px"
+                                },
+                                "id": "Col2-12-ComboAd",
+                                "key": "Col2-12-ComboAd",
+                                "serverHeight": true,
+                                "stayMaxHeight": true
+                            }
+                        },
+                        {
+                            "bundleName": "react-finance",
+                            "isPageComposite": true,
+                            "name": "Footer",
+                            "props": {
+                                "className": "Pb(15px)",
+                                "id": "Col2-13-Footer",
+                                "isCCPAEnabled": true,
+                                "key": "Col2-13-Footer"
+                            }
+                        }
+                    ],
+                    "Lead": [
+                        {
+                            "bundleName": "td-ads",
+                            "isPageComposite": true,
+                            "name": "Ad",
+                            "props": {
+                                "className": "D(n)--print",
+                                "id": "Lead-0-Ad",
+                                "key": "Lead-0-Ad",
+                                "pos": "LDRB",
+                                "style": {
+                                    "lineHeight": "0px",
+                                    "marginBottom": "8px",
+                                    "marginLeft": "auto",
+                                    "marginRight": "auto",
+                                    "paddingTop": "0px",
+                                    "position": "relative",
+                                    "textAlign": "center",
+                                    "zIndex": "5"
+                                }
+                            }
+                        },
+                        {
+                            "bundleName": "td-ads",
+                            "isPageComposite": true,
+                            "name": "Ad",
+                            "props": {
+                                "id": "Lead-1-Ad",
+                                "key": "Lead-1-Ad",
+                                "pos": "MAST",
+                                "style": {
+                                    "marginBottom": "8px",
+                                    "marginLeft": "20px",
+                                    "marginRight": "20px",
+                                    "paddingTop": "10px",
+                                    "position": "relative",
+                                    "textAlign": "center",
+                                    "zIndex": "5"
+                                }
+                            }
+                        },
+                        {
+                            "bundleName": "react-finance",
+                            "isPageComposite": true,
+                            "name": "FinanceHeader",
+                            "props": {
+                                "adsConfig": {
+                                    "positions": [
+                                        "FB2A",
+                                        "FB2B",
+                                        "FB2C",
+                                        "FB2D"
+                                    ]
+                                },
+                                "className": "Bgc($lv2BgColor) Bxz(bb) Ovx(a) Pos(r) Maw($newGridWidth) Miw($minGridWidth) Miw(a)!--tab768 Miw(a)!--tab1024 Mstart(a) Mend(a) Px(20px) Py(10px) D(n)--print",
+                                "id": "Lead-2-FinanceHeader",
+                                "key": "Lead-2-FinanceHeader",
+                                "showAds": true
+                            }
+                        },
+                        {
+                            "bundleName": "tdv2-applet-featurebar",
+                            "config": {
+                                "site": "finance",
+                                "ui": {
+                                    "container_classnames": "W(100%) Bxz(bb) Bdrs(2px) Maw($maxModuleWidth) Mx(a) D(n)--print",
+                                    "link_component": "WaferLink",
+                                    "prerender": {
+                                        "enabled": false,
+                                        "renderTargetId": "modal"
+                                    },
+                                    "wrapper_classnames": "Bgc(white) Pos(r) Bxz(bb) Maw($newGridWidth) Miw($minGridWidth) Miw(a)!--tab768 Miw(a)!--tab1024 Mstart(a) Mend(a) Px(20px) Pb(10px) D(n)--print"
+                                },
+                                "useNCP": true
+                            },
+                            "isPageComposite": true,
+                            "name": "FeatureBar",
+                            "props": {
+                                "id": "Lead-3-FeatureBar",
+                                "key": "Lead-3-FeatureBar",
+                                "useWrapper": true
+                            }
+                        },
+                        {
+                            "bundleName": "react-finance",
+                            "isPageComposite": true,
+                            "name": "DcmPixelIFrame",
+                            "props": {
+                                "hashStr": "AON9sUIjs65VG3Q0JA40l601TPeUJ097",
+                                "iFrameId": "quote-dcm-pixel-iframe",
+                                "id": "Lead-4-DcmPixelIFrame",
+                                "key": "Lead-4-DcmPixelIFrame",
+                                "src": "https://s.yimg.com/jk/gtm/gtm_ns.html?id=GTM-K85MQ6N&cat=wlistclk&u1={u1}"
+                            }
+                        },
+                        {
+                            "bundleName": "QuotePage",
+                            "isPageComposite": true,
+                            "name": "QuoteHeader",
+                            "props": {
+                                "id": "Lead-5-QuoteHeader",
+                                "key": "Lead-5-QuoteHeader"
+                            }
+                        },
+                        {
+                            "bundleName": "QuotePage",
+                            "isPageComposite": true,
+                            "name": "QuoteNav",
+                            "props": {
+                                "id": "Lead-6-QuoteNav",
+                                "key": "Lead-6-QuoteNav"
+                            }
+                        },
+                        {
+                            "bundleName": "tdv2-applet-rmp",
+                            "config": {
+                                "assets": {
+                                    "ctrl": "SmartAdDynamicData",
+                                    "m_id": "smart-ad-dynamic-data",
+                                    "name": "SmartAdDynamicData"
+                                },
+                                "enableNonIstioFallback": false,
+                                "endpoint": {
+                                    "body": {
+                                        "config": {
+                                            "adPositions": [
+                                                "FB2A",
+                                                "FB2B",
+                                                "FB2C",
+                                                "FB2D",
+                                                "LDRB",
+                                                "LREC",
+                                                "MON",
+                                                "LREC2",
+                                                "MON2",
+                                                "LREC3"
+                                            ],
+                                            "apiVersion": "2"
+                                        },
+                                        "ctrl": "SmartAdDynamicData",
+                                        "m_id": "smart-ad-dynamic-data",
+                                        "m_mode": "json",
+                                        "site": "finance"
+                                    },
+                                    "method": "POST",
+                                    "path": "/_rcv/remote",
+                                    "query": {
+                                        "ctrl": "SmartAdDynamicData",
+                                        "m_id": "smart-ad-dynamic-data"
+                                    }
+                                },
+                                "httpOptions": {
+                                    "cacheEnabled": false,
+                                    "cacheTTL": 60000,
+                                    "fallbackTTL": 3600000,
+                                    "fallbackTimeout": 4000,
+                                    "perfLabel": "read_smart_dynamic_data_rmp",
+                                    "timeout": 1000
+                                },
+                                "pathParamsToForward": [
+                                    "symbol"
+                                ],
+                                "serviceId": "nel_ms"
+                            },
+                            "isPageComposite": true,
+                            "name": "Rmp",
+                            "props": {
+                                "id": "Lead-7-Rmp",
+                                "key": "Lead-7-Rmp"
+                            }
+                        }
+                    ],
+                    "Nav": [
+                        {
+                            "bundleName": "react-finance",
+                            "config": {
+                                "components": {
+                                    "finance": {
+                                        "linkWidth": 230,
+                                        "linksRight": [
+                                            "feature_promo"
+                                        ]
+                                    }
+                                },
+                                "defaultRowNum": 10,
+                                "featureSwitches": {
+                                    "disableDivider": true,
+                                    "enableHighlightTriangle": true,
+                                    "followButtons": false,
+                                    "navLogoAlign": false,
+                                    "navrailCollapse": false,
+                                    "useNavSelectLogic": true,
+                                    "useSubnavTitleSlk": true
+                                },
+                                "i13n": {
+                                    "itc": 0,
+                                    "sec": "navrail"
+                                },
+                                "linkMeta": {
+                                    "feature_promo": {
+                                        "bundles": {
+                                            "bundleName": "tdv2-applet-monalixa",
+                                            "name": "MonalixaComponent",
+                                            "props": {
+                                                "appid": "e2423aea-ed6b-4493-ba57-7d159894084c",
+                                                "autoStart": true,
+                                                "checkStoreBeforeCall": true,
+                                                "isPremium": true,
+                                                "placement": "finance-eyebrow-index"
+                                            }
+                                        }
+                                    }
+                                },
+                                "mrt": {
+                                    "static": false
+                                },
+                                "navItems": [
+                                    {
+                                        "image": {
+                                            "append": true,
+                                            "height": 30,
+                                            "imageClasses": "Mb(2px)",
+                                            "url": "https://s.yimg.com/cv/apiv2/default/20211027/logo-18-18.svg",
+                                            "width": 30
+                                        },
+                                        "imageWrapperClasses": "W(15px) D(ib) Mstart(5px)",
+                                        "name": "Yahoo Finance Plus",
+                                        "requiresPremiumExperience": true
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "name": "Saved Screeners",
+                                                "url": "https://finance.yahoo.com/screener"
+                                            },
+                                            {
+                                                "name": "Equity Screener",
+                                                "url": "https://finance.yahoo.com/screener/new"
+                                            },
+                                            {
+                                                "name": "Mutual Fund Screener",
+                                                "url": "https://finance.yahoo.com/screener/mutualfund/new"
+                                            },
+                                            {
+                                                "name": "ETF Screener",
+                                                "url": "https://finance.yahoo.com/screener/etf/new"
+                                            },
+                                            {
+                                                "name": "Futures Screener",
+                                                "url": "https://finance.yahoo.com/screener/future/new"
+                                            },
+                                            {
+                                                "name": "Index Screener",
+                                                "url": "https://finance.yahoo.com/screener/index/new"
+                                            },
+                                            {
+                                                "image": {
+                                                    "append": true,
+                                                    "height": 30,
+                                                    "imageClasses": "Mb(2px)",
+                                                    "url": "https://s.yimg.com/cv/apiv2/default/20211027/logo-18-18.svg",
+                                                    "width": 30
+                                                },
+                                                "imageWrapperClasses": "W(15px) D(ib) Mstart(5px)",
+                                                "name": "Analyst Rating Screener",
+                                                "url": "https://finance.yahoo.com/screener/analyst_ratings/new?ncid=dcm_320339942_490172245_127172993"
+                                            },
+                                            {
+                                                "image": {
+                                                    "append": true,
+                                                    "height": 30,
+                                                    "imageClasses": "Mb(2px)",
+                                                    "url": "https://s.yimg.com/cv/apiv2/default/20211027/logo-18-18.svg",
+                                                    "width": 30
+                                                },
+                                                "imageWrapperClasses": "W(15px) D(ib) Mstart(5px)",
+                                                "name": "Technical Events Screener",
+                                                "url": "https://finance.yahoo.com/screener/tradingcentral_event/new?ncid=dcm_320544712_490172245_127172993"
+                                            },
+                                            {
+                                                "image": {
+                                                    "append": true,
+                                                    "height": 30,
+                                                    "imageClasses": "Mb(2px)",
+                                                    "url": "https://s.yimg.com/cv/apiv2/default/20211027/logo-18-18.svg",
+                                                    "width": 30
+                                                },
+                                                "imageWrapperClasses": "W(15px) D(ib) Mstart(5px)",
+                                                "name": "Smart Money Screener",
+                                                "url": "https://finance.yahoo.com/screener/institutional_interest/new?ncid=dcm_320344326_490172245_127172993"
+                                            },
+                                            {
+                                                "image": {
+                                                    "append": true,
+                                                    "height": 30,
+                                                    "imageClasses": "Mb(2px)",
+                                                    "url": "https://s.yimg.com/cv/apiv2/default/20211027/logo-18-18.svg",
+                                                    "width": 30
+                                                },
+                                                "imageWrapperClasses": "W(15px) D(ib) Mstart(5px)",
+                                                "name": "Top Holdings Screener",
+                                                "url": "https://finance.yahoo.com/screener/institutional_holdings/new?ncid=dcm_320545006_490172245_127172993"
+                                            }
+                                        ],
+                                        "name": "Screeners",
+                                        "requiresPremiumExperience": true
+                                    }
+                                ],
+                                "renderSecondaryNav": true,
+                                "site": "finance",
+                                "ui": {
+                                    "darkTheme": false,
+                                    "dividerClasses": "H(0)!",
+                                    "headerTitle": "finance",
+                                    "highlightPropertyHome": false,
+                                    "highlightTriangleColor": "transparent transparent #fff",
+                                    "hoverColor": "C($finNavBlueText):h",
+                                    "isNavLink": true,
+                                    "leftNavClasses": "Pstart(10px) Mstart(-10px) nr-applet-main-nav-right_Ov(inh)!",
+                                    "linkItemClasses": "Bgc($linkColor):h W(230px)!",
+                                    "makeSticky": false,
+                                    "navCache": true,
+                                    "navFont": "Ff($yahooSansFinanceFont)!",
+                                    "navLinkClasses": "Tt(n)!",
+                                    "navLinkClassesOnHover": "Bdbc($linkColor)!:h Bdbs(s)!:h Bdbw(4px)!:h H(38px) Trstf(l) Trsde(0s) Trsdu(.18s) Trsp(border-bottom-width)",
+                                    "navLinkNonHoverClasses": "C($topNavLinkGray) Bdbs(n)",
+                                    "navMainLeftClasses": "Mend(80px)",
+                                    "navMainRightClasses": "Bdc(t) Bdrs(1.5px) Bdbs(s):h Px(10px)!",
+                                    "navTitleClasses": "Pstart(10px) Mstart(-10px)!",
+                                    "offsetHack": "Pt(2px) Bgc(t)!",
+                                    "overrideColor": "C($finNavBlueText)",
+                                    "propertyHomeClasses": "Tt(c)! Bdbc($linkColor):h Bdbs(s):h Bdbw(4px):h H(38px) Trstf(l) Trsde(0s) Trsdu(.18s) Trsp(border-bottom-width)",
+                                    "propertyHomeSelectColor": "Bdbc($linkColor) Bdbs(s)! Bdbw(4px) H(38px)",
+                                    "relativeLinks": true,
+                                    "remoteAdapter": true,
+                                    "selectColor": "C($finNavBlueText)! Bdbw(0px) H(42px) Trstf(l) Trsde(0s) Trsdu(.18s) Trsp(border-bottom-width)",
+                                    "subnavClasses": "Bgc($lv3BgColor)!",
+                                    "subnavLinkClasses": "Tt(n)! C($primaryColor) C(white)!:h Maw(200px)!"
+                                }
+                            },
+                            "isPageComposite": true,
+                            "name": "DesktopNav",
+                            "perfLabel": "NavLite",
+                            "props": {
+                                "id": "Nav-0-DesktopNav",
+                                "key": "Nav-0-DesktopNav"
+                            }
+                        },
+                        {
+                            "bundleName": "react-finance",
+                            "config": {
+                                "navItems": [
+                                    {
+                                        "image": {
+                                            "append": true,
+                                            "height": 30,
+                                            "imageClasses": "Mb(2px)",
+                                            "url": "https://s.yimg.com/cv/apiv2/default/20211027/logo-18-18.svg",
+                                            "width": 30
+                                        },
+                                        "imageWrapperClasses": "W(15px) D(ib) Mstart(5px)",
+                                        "name": "Yahoo Finance Plus",
+                                        "requiresPremiumExperience": true
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "name": "Saved Screeners",
+                                                "url": "https://finance.yahoo.com/screener"
+                                            },
+                                            {
+                                                "name": "Equity Screener",
+                                                "url": "https://finance.yahoo.com/screener/new"
+                                            },
+                                            {
+                                                "name": "Mutual Fund Screener",
+                                                "url": "https://finance.yahoo.com/screener/mutualfund/new"
+                                            },
+                                            {
+                                                "name": "ETF Screener",
+                                                "url": "https://finance.yahoo.com/screener/etf/new"
+                                            },
+                                            {
+                                                "name": "Futures Screener",
+                                                "url": "https://finance.yahoo.com/screener/future/new"
+                                            },
+                                            {
+                                                "name": "Index Screener",
+                                                "url": "https://finance.yahoo.com/screener/index/new"
+                                            },
+                                            {
+                                                "image": {
+                                                    "append": true,
+                                                    "height": 30,
+                                                    "imageClasses": "Mb(2px)",
+                                                    "url": "https://s.yimg.com/cv/apiv2/default/20211027/logo-18-18.svg",
+                                                    "width": 30
+                                                },
+                                                "imageWrapperClasses": "W(15px) D(ib) Mstart(5px)",
+                                                "name": "Analyst Rating Screener",
+                                                "url": "https://finance.yahoo.com/screener/analyst_ratings/new?ncid=dcm_320339942_490172245_127172993"
+                                            },
+                                            {
+                                                "image": {
+                                                    "append": true,
+                                                    "height": 30,
+                                                    "imageClasses": "Mb(2px)",
+                                                    "url": "https://s.yimg.com/cv/apiv2/default/20211027/logo-18-18.svg",
+                                                    "width": 30
+                                                },
+                                                "imageWrapperClasses": "W(15px) D(ib) Mstart(5px)",
+                                                "name": "Technical Events Screener",
+                                                "url": "https://finance.yahoo.com/screener/tradingcentral_event/new?ncid=dcm_320544712_490172245_127172993"
+                                            },
+                                            {
+                                                "image": {
+                                                    "append": true,
+                                                    "height": 30,
+                                                    "imageClasses": "Mb(2px)",
+                                                    "url": "https://s.yimg.com/cv/apiv2/default/20211027/logo-18-18.svg",
+                                                    "width": 30
+                                                },
+                                                "imageWrapperClasses": "W(15px) D(ib) Mstart(5px)",
+                                                "name": "Smart Money Screener",
+                                                "url": "https://finance.yahoo.com/screener/institutional_interest/new?ncid=dcm_320344326_490172245_127172993"
+                                            },
+                                            {
+                                                "image": {
+                                                    "append": true,
+                                                    "height": 30,
+                                                    "imageClasses": "Mb(2px)",
+                                                    "url": "https://s.yimg.com/cv/apiv2/default/20211027/logo-18-18.svg",
+                                                    "width": 30
+                                                },
+                                                "imageWrapperClasses": "W(15px) D(ib) Mstart(5px)",
+                                                "name": "Top Holdings Screener",
+                                                "url": "https://finance.yahoo.com/screener/institutional_holdings/new?ncid=dcm_320545006_490172245_127172993"
+                                            }
+                                        ],
+                                        "name": "Screeners",
+                                        "requiresPremiumExperience": true
+                                    }
+                                ]
+                            },
+                            "isPageComposite": true,
+                            "name": "NavHelper",
+                            "props": {
+                                "id": "Nav-1-NavHelper",
+                                "key": "Nav-1-NavHelper"
+                            }
+                        }
+                    ],
+                    "Overlay": [
+                        {
+                            "bundleName": "react-lightbox",
+                            "isPageComposite": true,
+                            "name": "Lightbox",
+                            "props": {
+                                "id": "Overlay-0-Lightbox",
+                                "key": "Overlay-0-Lightbox"
+                            }
+                        },
+                        {
+                            "bundleName": "tdv2-applet-swisschamp",
+                            "isPageComposite": true,
+                            "name": "Empty",
+                            "props": {
+                                "id": "Overlay-1-Empty",
+                                "key": "Overlay-1-Empty"
+                            }
+                        }
+                    ],
+                    "SecondaryNav": [
+                        {
+                            "bundleName": "react-finance",
+                            "config": {
+                                "ui": {
+                                    "enableRelativeUrl": true
+                                }
+                            },
+                            "isPageComposite": true,
+                            "name": "SecondaryNav",
+                            "props": {
+                                "id": "SecondaryNav-0-SecondaryNav",
+                                "key": "SecondaryNav-0-SecondaryNav"
+                            }
+                        }
+                    ],
+                    "UH": [
+                        {
+                            "bundleName": "tdv2-wafer-header.finance",
+                            "config": {
+                                "logo": {
+                                    "brandName": "YAHOO_FINANCE",
+                                    "enableHeading": false,
+                                    "imageUri": "https://s.yimg.com/rz/p/yahoo_finance_en-US_s_f_pw_351X40_finance_2x.png",
+                                    "link": "https://finance.yahoo.com",
+                                    "theme": {
+                                        "heading": "Fz(0) Pstart(15px) Pos(a) Miw(190px)",
+                                        "link": "Bgp(0) Bgr(nr) Bgz(702px) D(b) H(35px) W(92px)  Bgz(702px)!--sm1024 Cur(p) Mx(a)",
+                                        "linkLabel": "Hidden"
+                                    }
+                                },
+                                "mailMenu": {
+                                    "i13n": {
+                                        "elm": "btn",
+                                        "itc": "0",
+                                        "sec": "uh",
+                                        "slk": "mail",
+                                        "subsec": "mail",
+                                        "t1": null,
+                                        "t2": null
+                                    },
+                                    "mailLink": "",
+                                    "signInUrl": "https://login.yahoo.com/config/login?.src=finance&.intl=us&.lang=en-US&.done=https://finance.yahoo.com&activity=uh-mail",
+                                    "theme": {
+                                        "_iconColor": "#6001d2",
+                                        "_iconHeight": "30",
+                                        "_iconWidth": "30",
+                                        "button": "C(#4d00ae) D(b) H(22px) Lh(22px) Py(7px) Pos(r) Td(n)",
+                                        "buttonLabel": "D(ib) Fz(14px) Fw(b) Lh(24px) Pstart(38px)",
+                                        "icon": "Pos(a) T(4px)",
+                                        "loadingImage": "D(b) M(a) P(20px)",
+                                        "menuElement": "D(ib) H(46px) Mstart(14px) Mt(7px) O(n) Va(t)",
+                                        "menuPanel": "Bgc(#fff) Bdc(#d6d6da) Bdrs(6px) Bds(s) Bdw(1px) Bxsh($menuShadow) Fz(14px) List(n) Mt(10px) Mah(0) Mih(57px) Op(0) P(0) Pos(a) End(0) Trs($fastMenuTransition) V(h) W(382px) active_Mah(478px) active_Op(1) active_V(v)",
+                                        "menuPanelPromoSignedOut": "Bgc(#fff) Bdc(#d6d6da) Bdrs(6px) Bds(s) Bdw(1px) Bxsh($menuShadow) Bxz(bb) Fz(14px) List(n) Mt(10px) Mah(0) Mih(57px) Op(0) Px(24px) Py(20px) Pos(a) End(0) Ta(c) Trs($menuTransition) V(h) W(382px) active_Mah(172px) active_Op(1) active_V(v)",
+                                        "menuPanelSignIn": "Bgc(#fff) Bdc(#d6d6da) Bdrs(6px) Bds(s) Bdw(1px) Bxsh($menuShadow) Fz(14px) List(n) Mt(10px) Mah(0) Mih(57px) Op(0) P(0) Pos(a) End(0) Trs($menuTransition) V(h) W(382px) active_Mah(614px) active_Op(1) active_V(v)",
+                                        "menuPanelSignedOut": "Bgc(#fff) Bdc(#d6d6da) Bdrs(6px) Bds(s) Bdw(1px) Bxsh($menuShadow) Bxz(bb) Fz(14px) List(n) Mt(10px) Mah(0) Mih(57px) Op(0) Px(24px) Py(20px) Pos(a) End(0) Ta(c) Trs($menuTransition) V(h) W(382px) active_Mah(60px) active_Op(1) active_V(v)",
+                                        "promoContainer": "D(f) Ta(start) Ai(c) Pt(20px) Pb(10px) Pos(r)",
+                                        "promoContent": "Fz(13px) C(#59636d) Mt(5px) Mb(5px)",
+                                        "promoHeader": "Fz(13px) Fw(b) Mb(0) C($c-fuji-inkwell)",
+                                        "promoImg": "W(53px) H(59px) Mend(14px)",
+                                        "promoLink": "Fz(13px) C($c-fuji-smurfette) Fw(b) Td(n)",
+                                        "signInLink": "C(#0078ff) Fw(b) Td(n)"
+                                    },
+                                    "xhrPathPrefix": "/_finance_doubledown"
+                                },
+                                "mrt": {
+                                    "cache": false,
+                                    "enableStaticI13nTracking": false,
+                                    "static": true
+                                },
+                                "navigationBar": {
+                                    "enabled": false
+                                },
+                                "notificationMenu": {
+                                    "badge": {
+                                        "data-wf-state-key": "[state.financeNotification.hideBadge]",
+                                        "data-wf-state-text": "[state.financeNotification.unreadCount]",
+                                        "data-wf-toggle-class": "stateChange:toggle:D(n)"
+                                    },
+                                    "enabled": true,
+                                    "menuPanel": {
+                                        "data-wf-trigger": "onLoad",
+                                        "data-wf-url": "/_finance_doubledown/remote?m_id=react-finance.rmp&ctrl=NotificationAlert&includeAssets=0&m_mode=json&config=%7B%22mrt%22%3A%7B%22static%22%3Atrue%7D%7D"
+                                    },
+                                    "theme": {
+                                        "_iconColor": "#6001d2",
+                                        "_iconHeight": "26",
+                                        "button": "Bgc(t) Bd(0) Cur(p) P(10px)  H(36px) Pos(r) W(30px)",
+                                        "buttonLabel": "D(ib) Fz(1orpx) Fw(b) Lh(37px) Mstart(6px) Va(t)",
+                                        "composeLink": "C(#000) Fl(end) Td(n) C(#0078ff):h",
+                                        "composeLinkLabel": "Va(t)",
+                                        "count": "Bg($fujiGradient) Bgc($c-fuji-red-2-b) Bdrs(24px) C(#fff) D(n) Fz(14px) Fw(b) H(17px) Op(.9) Pb(4px) Pt(3px) Pos(a) Start(16px) Ta(c) T(-8px) W(24px) Ff($yahooSansFinanceFont)! wafer-text wafer-toggle",
+                                        "countWrapper": "Pos(r) Z(1)",
+                                        "errorMessage": "Px(20px) Py(20px) Ta(c)",
+                                        "icon": "Pos(a) Start(2px) T(4px)",
+                                        "inboxLink": "C(#000) Ta(start) Td(n) C(#0078ff):h",
+                                        "loadingImage": "D(b) M(a) P(20px)",
+                                        "menuElement": "D(ib) Mx(8px) Va(t) Mt(7px) O(n):f",
+                                        "menuPanel": "Bgc(#fff) Bdc(#d6d6da) Bdrs(6px) Bds(s) Bdw(1px) Bxsh($menuShadow) Fz(14px) List(n) Mt(10px) Mah(0) Mih(57px) Op(0) Ov(a) P(0) Pos(a) End(0) Trs($fastMenuTransition) V(h) W(382px) active_Mah(478px) active_Op(1) active_V(v) wafer-fetch",
+                                        "messageLink": "C(#000) D(b) Px(24px) Py(16px) Pos(r) Td(n) Bgc(#c2deff):h",
+                                        "messageList": "Fz(13px) List(n) My(0) P(0) W(100%)",
+                                        "messageSender": "Ell Fw(b)",
+                                        "messageSenderRead": "Ell Fw(n)",
+                                        "messageSubject": "Cl(b) Ell Pt(4px)",
+                                        "messageTimestamp": "C(#b2b2b2) Fl(end) Fz(12px)",
+                                        "newMessageIndicator": "Bgc(#0078ff) Bdrs(10px) H(6px) Pos(a) Start(9px) T(21px) W(6px)",
+                                        "panelFooterWrapper": "Bgc(#f9f9f9) Bdrs(6px) Bdtc(#f2f2f2) Bdts(s) Bdtw(1px) Px(24px) Py(20px)"
+                                    }
+                                },
+                                "profileMenu": {
+                                    "accountSwitch": {
+                                        "enabled": true,
+                                        "i13n": {
+                                            "itc": "0",
+                                            "sec": "uh",
+                                            "slk": "acctswitch",
+                                            "subsec": "profile"
+                                        },
+                                        "profileLink": "https://login.yahoo.com/d?.intl=us&.lang=en-US&.src=finance&login=${ALIAS}&as=1"
+                                    },
+                                    "i13nSignInBtn": {
+                                        "itc": "0",
+                                        "sec": "uh",
+                                        "slk": "acct-info",
+                                        "subsec": "profile"
+                                    },
+                                    "items": [
+                                        {
+                                            "i13n": {
+                                                "itc": "0",
+                                                "sec": "uh",
+                                                "slk": "acct-info",
+                                                "subsec": "profile"
+                                            },
+                                            "id": "profile-settings-link",
+                                            "label": "ACCOUNT_INFO",
+                                            "link": "https://login.yahoo.com/account/personalinfo/?.intl=us&.lang=en-US&.src=finance&.done={PAGE_URL}&activity=uh-acctinfo&pspid={PAGE_SPACEID}",
+                                            "theme": {
+                                                "_iconColor": "#6001d2",
+                                                "_iconHeight": "18",
+                                                "accordionMenu": "Bgc(t) Bdw(0) C($c-fuji-grey-l)! D(b) Ell Fz(14px) P(0) Pos(r) O(n) Td(n) W(100%) accordionBtn wafer-toggle",
+                                                "icon": "H(45px) Fl(start) Mstart(2px) Ta(c) panelIcon",
+                                                "listItem": "   Cl(b) Cur(p) List(n) Pstart(42px)  Fz(13px) Pb(5px) Pt(25px) Mt(-40px)",
+                                                "listItemButton": "Bgc(t) Bdw(0) C($c-fuji-grey-l) Cur(p) D(b) Ell Fz(14px) P(0) W(100%)",
+                                                "listItemLabel": "Fl(start) Pstart(30px) My(15px) panelIcon+Pstart(10px) panelIcon+Mb(0)",
+                                                "listItemLink": "C($c-fuji-grey-l) D(b) Ell Td(n) C($c-fuji-blue-1-c):h"
+                                            },
+                                            "type": "SimplePanelItem"
+                                        },
+                                        {
+                                            "type": "AccountSwitch"
+                                        },
+                                        {
+                                            "i13n": {
+                                                "itc": "0",
+                                                "sec": "uh",
+                                                "slk": "add-acct",
+                                                "subsec": "profile"
+                                            },
+                                            "icon": "PlusIcon",
+                                            "id": "profile-accounts-link",
+                                            "label": "ADD_MANAGE_ACCOUNTS",
+                                            "link": "https://login.yahoo.com/manage_account?.intl=us&.lang=en-US&.src=finance&.done={PAGE_URL}&activity=uh-addacct&pspid={PAGE_SPACEID}",
+                                            "type": "SimplePanelItem"
+                                        },
+                                        {
+                                            "i13n": {
+                                                "itc": "0",
+                                                "sec": "uh",
+                                                "slk": "usersigno",
+                                                "subsec": "profile"
+                                            },
+                                            "icon": "LogOut",
+                                            "id": "profile-signout-link",
+                                            "label": "SIGN_OUT_ALL",
+                                            "link": "https://login.yahoo.com/config/login/?.intl=us&.lang=en-US&.src=finance&logout_all=1&.direct=1&.done=https://www.yahoo.com",
+                                            "signedInOnly": true,
+                                            "type": "SimplePanelItem"
+                                        }
+                                    ],
+                                    "signInUrl": "https://login.yahoo.com/config/login?.src=finance&.intl=us&.lang=en-US&.done={PAGE_URL}&activity=uh-signin",
+                                    "simpleSignOut": {
+                                        "enabled": false
+                                    },
+                                    "theme": {
+                                        "_iconColor": "#4d00ae",
+                                        "_iconHeight": "28",
+                                        "_signInIconColor": "#C0C0C0",
+                                        "_signInIconDimension": "40",
+                                        "accountSwitchItem": "Bdtc($c-fuji-grey-c) Bdts(s) Bdtw(1px) Cl(b) Cur(p) Bgc(#c2deff):h",
+                                        "accountSwitchLink": "C($c-fuji-grey-l)! D(b) Ell Mstart(18px) Mih(50px) Pb(5px) Pt(15px) Td(n)",
+                                        "alias": "C($c-fuji-grey-8) Ell Fz(13px) Mend(40px) Mstart(54px)",
+                                        "button": "Bgc(t) Bd(0) Cur(p) H(36px) Mend(5px) Mt(5px) Miw(28px) P(0) Pos(r) Z(1)",
+                                        "buttonFirstName": "C(#4d00ae) Ell Fz(14px) Fw(b) Lh(36px) Mstart(42px) Maw(100px)",
+                                        "buttonUserAvatar": "Bgr(nr) Bgz(34px) Bdrs(45%) H(34px) Pos(a) Start(1px) T(2px) W(34px)",
+                                        "downCaret": "D(b) Fl(end) H(50px) Mend(40px) accordionOpen_D(n)!",
+                                        "firstName": "Ell Fz(15px) Lh(1.4) Mend(40px) Mstart(54px)",
+                                        "icon": "",
+                                        "listItem": "Bdtc($c-fuji-grey-c) Bdts(s) Bdtw(1px) Cl(b) Cur(p) Bgc(#c2deff):h",
+                                        "listItemLabel": "Fl(start) Mstart(10px) Mt(15px)",
+                                        "menuElement": "D(ib) H(46px) Mx(14px) O(n) Va(t)",
+                                        "menuPanel": "Bgc(#fff) Bdc(#d6d6da) Bdrs(6px) Bds(s) Bdw(1px) Bxsh($menuShadow) Fz(14px) List(n) Mt(10px)  Mih(200px) Op(0) P(0) Pos(a) End(0) Trs($fastMenuTransition) V(h) W(382px)  active_Op(1) active_V(v)",
+                                        "notifAccordionList": "D(n) P(0) header-notification-panel accordionOpen_D(b)!",
+                                        "profileText": "D(ib) H(30px) Mstart(55px) Pt(10px) Ta(c)",
+                                        "signInButton": "Bgc(#fff) Bdc($c-fuji-grape-jelly) Bdrs(3px) Bds(s) Bdw(2px) C(#4d00ae) D(ib) Ell Fz(13px) Fw(b) H(19px) Lh(19px) Mend(5px) Mt(10px) Miw(66px) Px(6px) Py(2px) Ta(c) Td(n) active_Bgc($c-fuji-grape-jelly) active_C(#fff)",
+                                        "signInIcon": "Pos(a)",
+                                        "signInLink": "C($c-fuji-grey-l)! D(b) Ell Mstart(18px) Mih(50px) Pb(0px) Pt(20px) Td(n)",
+                                        "signInText": "Fz(18px) Mend(40px) Mstart(54px) Pt(10px)",
+                                        "signOutIcon": "Pos(a) Start(1px) T(4px)",
+                                        "signOutLink": "C($c-fuji-grey-l) D(b) Ell My(15px) Mstart(45px) Td(n)",
+                                        "simpleSignOutLink": "Miw(a)",
+                                        "upCaret": "D(n) Fl(end) H(50px) Mend(40px) accordionOpen_D(b)!",
+                                        "userAvatar": "Bgz(cv) Bgr(nr) Bdrs(45%) H(40px) Pos(a) W(40px)"
+                                    }
+                                },
+                                "searchAssist": {
+                                    "enabled": false
+                                },
+                                "searchBox": {
+                                    "addFormAttrs": {
+                                        "data-finsrch": "researchReports"
+                                    },
+                                    "formAction": "/quote/",
+                                    "i13nForm": {
+                                        "tar": "finance.yahoo.com"
+                                    },
+                                    "i13nSubmitBtn": {
+                                        "tar": "finance.yahoo.com"
+                                    },
+                                    "inputId": "yfin-usr-qry",
+                                    "placeholder": "UH_SEARCH_WEB",
+                                    "searchExtraQueryParams": [
+                                        {
+                                            "name": "fr",
+                                            "value": "uh3_finance_vert"
+                                        },
+                                        {
+                                            "name": "fr2",
+                                            "value": "p:finvsrp,m:sb"
+                                        }
+                                    ],
+                                    "searchQueryParam": "yfin-usr-qry",
+                                    "theme": {
+                                        "_submitIconColor": "#fff",
+                                        "form": "D(tb) H(35px) Pos(r) Va(m) W(100%) finsrch-enable-perf",
+                                        "innerWrapper": "D(tb) W(100%)",
+                                        "input": "Bgc(t) Bd Bdrsbstart(2px)! Bdc(#b0b0b0) Bdendw(0) Bdrs(0) Bdrststart(2px)! Bxsh(n) Bxz(bb) D(b) Fz(15px) H(inh) M(0) O(0) Px(10px) W(100%) Bdc($c-fuji-blue-1-c):f Bdc(#949494):h finsrch-inpt",
+                                        "inputLabel": "Hidden",
+                                        "splitLogo": "Va(m) D(tbc) W(120px)",
+                                        "splitLogoLink": "Mstart(10px) D(ib) H(32px) W(110px) Bgz(221px) Bgr(nr)",
+                                        "submitButton": "Bgc($c-fuji-blue-1-b) Bd(n) Bdrsbend(2px) Bdrstend(2px) D(b) H(100%) M(0) P(0) rapid-noclick-resp W(100%) Bgc($actionBlueHover):h submit-btn finsrch-btn",
+                                        "submitButtonWrapper": "D(tbc) H(100%) Ta(c) Va(t) W(90px)",
+                                        "voiceButton": "Bgc(t) Bd(n) Cur(p) P(0) D(n) O(n)",
+                                        "voiceButtonWrapper": "Pos(a) T(13px) End(92px) Z(2)",
+                                        "wrapper": "H(35px) Mend(396px) Mstart(255px) Maw(647px) Pos(r) Mstart(200px)--sm1024 Va(t)"
+                                    }
+                                },
+                                "skipLinks": {
+                                    "enabled": true,
+                                    "items": [
+                                        {
+                                            "label": "SKIP_TO_NAVIGATION",
+                                            "link": "Nav-0-DesktopNav"
+                                        },
+                                        {
+                                            "label": "SKIP_TO_MAIN_CONTENT",
+                                            "link": "market-summary"
+                                        },
+                                        {
+                                            "label": "SKIP_TO_RELATED_CONTENT",
+                                            "link": "Aside"
+                                        }
+                                    ]
+                                },
+                                "theme": {
+                                    "fixedHeight": "fixed-space H(127px) modal-open_H(90px) modal-open_Mb($bottomBarHideMargin)",
+                                    "flexHeight": "fixed-space H(85px) modal-open_H(85px) modal-open_Mb($bottomBarHideMargin)",
+                                    "innerWrapper": "Bgc(t) M(a) Maw(1301px) Miw(1000px) Pb(12px) Pt(15px) Pos(r) TranslateZ(0) Z(6)",
+                                    "logoWrapper": "D(tbc) Va(m)",
+                                    "menuList": "End(48px) List(n) Mt(0) Pos(a) T(10px) header-menu",
+                                    "profileButtonWrapper": "D(tbc) Pstart(12px) Va(m)",
+                                    "searchButtonWrapper": "D(tbc) Pstart(14px) Va(m) W(100%)",
+                                    "searchScreen": "Bgc(#fff) D(n) H(100%) Ov(s) Pos(f) Start(0) T(0) W(100%) Z(2) search-open_D(b)",
+                                    "wrapper": "Bgc(t) Bdbc(t) Bdbs(s) Bdbw(1px) D(tb) Pos(f) Tbl(f) W(100%) Z(10) has-scrolled_Bdc($c-fuji-grey-d) Scrolling_Bdc($c-fuji-grey-d) has-scrolled_Bxsh($headerShadow) Scrolling_Bxsh($headerShadow) Bxz(bb) Mx(a) Miw(1007px) Start(0) wafer-rapid-module"
+                                },
+                                "topBar": {
+                                    "enabled": true,
+                                    "flexHeight": true,
+                                    "i13n": {
+                                        "sec": "uh",
+                                        "t1": null,
+                                        "t2": null,
+                                        "t3": null
+                                    }
+                                },
+                                "webNotifications": {
+                                    "enabled": false
+                                }
+                            },
+                            "critical": true,
+                            "isPageComposite": true,
+                            "name": "HeaderDesktop",
+                            "perfLabel": "WaferHeaderDesktop",
+                            "props": {
+                                "id": "UH-0-HeaderDesktop",
+                                "key": "UH-0-HeaderDesktop"
+                            }
+                        },
+                        {
+                            "bundleName": "react-finance",
+                            "config": {
+                                "finSearchConfig": {
+                                    "newsCount": 2,
+                                    "researchReportsCount": 2
+                                },
+                                "inlineFinSearchInit": true,
+                                "mrt": {
+                                    "enableStaticI13nTracking": false,
+                                    "static": true
+                                }
+                            },
+                            "isPageComposite": true,
+                            "name": "WaferHeaderHelper",
+                            "props": {
+                                "id": "UH-1-WaferHeaderHelper",
+                                "key": "UH-1-WaferHeaderHelper"
+                            }
+                        }
+                    ]
+                },
+                "spaceid": 95993639,
+                "videoOverrides": {
+                    "enableOathPlayer": true
+                }
+            }
+        },
+        "headerOverride": {},
+        "queryOverride": {}
+    },
+    "renderTargets": {
+        "default": {
+            "classNames": "render-target-default Pos(a) W(100%)",
+            "elementId": "render-target-default",
+            "guid": 0,
+            "id": "default",
+            "owner": "app",
+            "url": ""
+        },
+        "modal": {
+            "classNames": "render-target-modal O(n)!:f Bdtw(1px) D(n) H(a)! Mih(100%) modal-postopen_Op(1) Pos(a) T(76px) CollapsibleUh_T(60px) Start(0) End(0) Maw(1230px) Miw(984px) Mx(a) modal-open_D(b) modal-postopen_D(b) W(100%) H(100%) Z(9)",
+            "elementId": "render-target-modal",
+            "guid": 1,
+            "id": "modal",
+            "owner": "app",
+            "url": ""
+        }
+    },
+    "renderTargetsInited": true,
+    "routeConfig": {},
+    "spaceid": 28951412,
+    "status": {
+        "code": 200,
+        "headers": null,
+        "redirect": null,
+        "responseBody": null,
+        "responseHTML": null
+    }
+}
